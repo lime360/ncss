@@ -5,17 +5,17 @@ $section-width: 69ch;
 $section-margin: 1em;
 
 body {
-    background-color: $bgcolor;
-    color: $textcolor;
-    font-family: $font;
-    text-align: center;
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-family: $font;
 }
 ul, ol, li {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 section {
-    max-width: $section-width;
-    margin: $section-margin auto;
+  max-width: $section-width;
+  margin: $section-margin auto;
+  text-align: center;
 }
 header {
   text-align: center;
