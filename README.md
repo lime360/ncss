@@ -1,4 +1,6 @@
 # nCSS
+[![Build](https://github.com/lime360/ncss/actions/workflows/build.yml/badge.svg)](https://github.com/lime360/ncss/actions/workflows/build.yml) [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/lime360/ncss/main/n.user.css)
+
 [Neocities](https://neocities.org) default styling as a classless CSS stylesheet.
 
 ## Installation
@@ -7,14 +9,14 @@
 <link rel="stylesheet" href="http://ncss.lime360.serv00.net/n.min.css">
 <!-- In a stylesheet -->
 <style>
-@import "http://ncss.lime360.serv00.net/n.min.css";
+@import url("http://ncss.lime360.serv00.net/n.min.css");
 </style>
 ```
 
 You can also place `n.css` in your site!
 
 ## Building
-These is a SASS version at `n.scss`, but it's basically the same thing as the original CSS, but with additional variables to customize your stylesheet.
+These is a SASS version at `n.scss`, it's basically the same thing as the original CSS, but with additional variables to customize your stylesheet.
 
 Simply install SASS and run `npm run build` to generate minified CSS in the `dist/` folder.
 
