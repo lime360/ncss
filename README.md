@@ -16,4 +16,4 @@ You can also place `n.css` in your site!
 ## Building
 These is a SASS version at `n.scss`, but it's basically the same thing as the original CSS, but with additional variables to customize your stylesheet.
 
-Simply install SASS by running `npm install -g`, and run `npm run build` to generate minified CSS in the `dist/` folder.
+Simply install SASS and run `npm run build` to generate minified CSS in the `dist/` folder.
