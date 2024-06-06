@@ -3,18 +3,6 @@
 
 [Neocities](https://neocities.org) default styling as a classless CSS stylesheet.
 
-## Installation
-```html
-<!-- In an HTML <link> tag -->
-<link rel="stylesheet" href="http://ncss.lime360.serv00.net/n.min.css">
-<!-- In a stylesheet -->
-<style>
-@import url("http://ncss.lime360.serv00.net/n.min.css");
-</style>
-```
-
-You can also place `n.css` in your site!
-
 ## Building
 These is a SASS version at `n.scss`, it's basically the same thing as the original CSS, but with additional variables to customize your stylesheet.
 
