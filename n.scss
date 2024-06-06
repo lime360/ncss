@@ -1,0 +1,33 @@
+$bgcolor: white;
+$textcolor: black;
+$font: Verdana;
+$section-width: 69ch;
+$section-margin: 1em;
+
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-family: $font;
+}
+ul, ol, li {
+  list-style-position: inside;
+}
+section {
+  max-width: $section-width;
+  margin: $section-margin auto;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: $textcolor;
+		color: $bgcolor;
+	}
+}

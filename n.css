@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+ul, ol, li {
+  list-style-position: inside;
+}
+section {
+  max-width: 69ch;
+  margin: 1em auto;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
+}

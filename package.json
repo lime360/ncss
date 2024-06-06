@@ -1,0 +1,21 @@
+{
+  "name": "ncss",
+  "version": "1.0.0",
+  "description": "Neocities default styling as a classless CSS stylesheet.",
+  "scripts": {
+    "build": "sass n.scss dist/n.min.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lime360/ncss.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "lime360",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/lime360/ncss/issues"
+  },
+  "homepage": "https://github.com/lime360/ncss#readme"
+}
